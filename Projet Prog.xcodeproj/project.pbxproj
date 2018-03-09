@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA38E41E2052C7E200A840FF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA38E41D2052C7E200A840FF /* main.cpp */; };
+		BA38E41E2052C7E200A840FF /* Vecteur.cc in Sources */ = {isa = PBXBuildFile; fileRef = BA38E41D2052C7E200A840FF /* Vecteur.cc */; };
+		BA38E4252052C81B00A840FF /* testVecteur.cc in Sources */ = {isa = PBXBuildFile; fileRef = BA38E4242052C81B00A840FF /* testVecteur.cc */; };
+		BA38E4282052C93300A840FF /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = BA38E4272052C93300A840FF /* makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,10 @@
 
 /* Begin PBXFileReference section */
 		BA38E41A2052C7E200A840FF /* Projet Prog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Projet Prog"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA38E41D2052C7E200A840FF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BA38E41D2052C7E200A840FF /* Vecteur.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vecteur.cc; sourceTree = "<group>"; };
+		BA38E4242052C81B00A840FF /* testVecteur.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testVecteur.cc; sourceTree = "<group>"; };
+		BA38E4262052C85700A840FF /* Vecteur.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vecteur.h; sourceTree = "<group>"; };
+		BA38E4272052C93300A840FF /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +62,10 @@
 		BA38E41C2052C7E200A840FF /* Projet Prog */ = {
 			isa = PBXGroup;
 			children = (
-				BA38E41D2052C7E200A840FF /* main.cpp */,
+				BA38E41D2052C7E200A840FF /* Vecteur.cc */,
+				BA38E4262052C85700A840FF /* Vecteur.h */,
+				BA38E4242052C81B00A840FF /* testVecteur.cc */,
+				BA38E4272052C93300A840FF /* makefile */,
 			);
 			path = "Projet Prog";
 			sourceTree = "<group>";
@@ -119,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA38E41E2052C7E200A840FF /* main.cpp in Sources */,
+				BA38E4252052C81B00A840FF /* testVecteur.cc in Sources */,
+				BA38E41E2052C7E200A840FF /* Vecteur.cc in Sources */,
+				BA38E4282052C93300A840FF /* makefile in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
